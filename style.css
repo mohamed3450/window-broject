@@ -6,6 +6,9 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
+h1{
+   text-align: center;
+}
 .heading{
     background-image:url(pixelcut-export\ \(1\).png) ;
     display: flex;
@@ -36,9 +39,10 @@ a{
     padding: 5px;
 }
 nav a:hover{
- background-color: #333;
- transition: 1.1s;
- border-radius: 20px;
+    background-color: #333;
+    border-radius: 15PX;
+    color: white;
+    transition: 0.3s;
 }
 .landing{
     background-image: url(pixelcut-export\ \(1\).png);
@@ -54,16 +58,66 @@ nav a:hover{
      text-align: center;
      padding: 20px;
     color: white;
-    text-shadow: 10px 10px 10px black;
+    text-shadow: 20px 20px 20px black;
+    transition:1.8s;
 }
 button{
 height: 34px;
 width: 100px;
 border-radius: 20px;
-    color: rgb(255, 255, 255);
-    background-color: #333;
-    margin: 10px;
+ color: rgb(255, 255, 255);
+ background-color: #333;
+ margin: 10px;
  border: none;
  font-size: 12px;
  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+ 
+}
+.card{
+    display: flex;
+    padding: 40px;
+}
+.card1{
+    width: 200px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+    transform: translate(-5%, -5%,-5%, -5%);
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.card1image{
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.contactus{
+display: flex;
+flex-wrap: wrap;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border:#333;
+    width: 200px;
+    background-color: black;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border:#333;
+    width: 200px;
+    background-color: black;
+    height: 100px;
 }
